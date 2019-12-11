@@ -245,7 +245,7 @@ form, #cform{
     margin-left: 20%;
     margin-bottom: 2%;
 }
-.show, textarea{                                    /*ovde sam morao da stavim visibility:visible, jer imam 'gore' input-hidden */
+.show, textarea{                                    
     width: 300px;
     visibility: visible;
     margin-bottom: 10px;
@@ -258,4 +258,25 @@ form, #cform{
     background-size: contain;
     background-repeat: no-repeat;
     margin: 150px auto;
+}
+
+.row{
+    margin: 10px solid black;
+    /* padding-left: 150px; */
+    justify-content: center;
+}
+
+.destinations img{               /*slike u destinacijama ispod carosel*/
+    width: 100%;
+    height: auto;
+    object-fit: fill;
+    margin-right: 0px;
+    margin-left: 0px;
+}
+
+.destinations{
+    margin: 5px;
+    border: 2px solid rgb(146, 146, 146);
+    padding-right: 0px;
+    padding-left: 0px;
 }
