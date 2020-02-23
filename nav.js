@@ -24,6 +24,9 @@ document.write(`
                         <a class="nav-link" href="galerija.html">Gallery</a>
                     </li>
                     <li class="nav-item">
+                        <a class="nav-link" href="blog.html">Blog</a>
+                    </li>
+                    <li class="nav-item">
                         <a class="nav-link" href="kontakt.html">Contact</a>
                     </li>
                 </ul>
